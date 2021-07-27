@@ -9,7 +9,9 @@ class Solution:
         d = {}
         for num in arr:
             d[num] = d.get(num, 0) + 1
+        
+        l = -1
         for k, v in d.items():
-            if k == v and k > 0:
-                return k
-        return -1
+            if k == v and k > l:
+                l = v
+        return l
