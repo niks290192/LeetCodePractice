@@ -3,7 +3,7 @@
 
 
 class Solution(object):
-    def findDisappearedNumber(self, nums):
+    def findDisappearedNumbers(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
